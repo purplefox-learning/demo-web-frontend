@@ -16,7 +16,7 @@ public class CountryDao {
 	private final RestTemplate restTemplate;
 
 	@Autowired
-	public CountryDao(RestTemplate restTemplate, @Value("${edmi.integrator.url}") String providerUrl) {
+	public CountryDao(RestTemplate restTemplate, @Value("${demo.integrator.url}") String providerUrl) {
 		this.restTemplate = restTemplate;
 		this.resourceUrl = providerUrl + "/countries";
 	}
