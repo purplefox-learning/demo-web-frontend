@@ -1,0 +1,1 @@
+gradlew -Dspring.profiles.active=default bootRun
